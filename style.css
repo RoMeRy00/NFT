@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #0D192C;
+
+}
+
+main {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 350px;
+    height: 596px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    padding: 24px;
+
+}
+
+article>img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+h3 {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+
+
+}
+
+p {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #8BACD9;
+    margin-bottom: 24px;
+
+}
+
+.price {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    color: #00FFF8;
+
+
+}
+
+.date {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    color: #8BACD9;
+
+
+}
+
+article>div>img {
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+p span.white {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    color: #FFFFFF;
+
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin-bottom: 24px;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.avtor {
+
+    border-top: 2px solid #2E405A;
+    display: flex;
+    padding-top: 16px;
+    align-items: center;
+    gap: 16px;
+}
+.avtor p {
+    margin: 0;
+}
